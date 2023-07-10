@@ -165,10 +165,15 @@ Now merge your branch into main.
 git merge informative-branch-name
 ```
 
-Lastly, delete the branch you used to make changes. It will still exist in the version history, but you will no longer be able to commit to it. This is the desired state as it has been merged back into main. 
+Now you can delete the branch you used to make changes. It will still exist in the version history, but you will no longer be able to commit to it. This is the desired state as it has been merged back into main. 
 
 ```
 git branch -d informative-branch-name
 ```
 
+Lastly, push! This is an important step as otherwise all the local work you have done will not match the remote repo. 
+
+```
+git push
+```
 
