@@ -122,7 +122,7 @@ Pull the main branch before making any changes.
 git pull
 ```
 
-Make a new branch and move to it so that your changes will be commited there. This step can happen before or after making changes or the add step, but MUST TAKE PLACE BEFORE COMMIT. ```checkout``` changes branches and can create a new branch with the ```-b``` flag. 
+Make a new branch and move to it so that your changes will be commited there. This step can happen before or after making changes and before or after the add step, but MUST TAKE PLACE BEFORE COMMIT. ```checkout``` changes branches and can create a new branch with the ```-b``` flag. 
 
 ```
 git checkout -b informative-branch-name
