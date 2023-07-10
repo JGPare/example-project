@@ -76,10 +76,10 @@ As you're working, you change and save a file, or multiple files. Then, before y
 Add a file:
 ``` 
 git add filename
+```
 Add a directory:
 ```
 git add /directoryname
-```
 ```
 Add all changed files:
 ``` 
@@ -133,6 +133,10 @@ As you're working, you change and save a file, or multiple files. Then, before y
 Add a file:
 ``` 
 git add filename
+```
+Add a directory:
+```
+git add /directoryname
 ```
 Add all changed files:
 ``` 
